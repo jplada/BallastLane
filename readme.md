@@ -14,14 +14,15 @@ Data is stored in MongoDB for simplicity
 
 ## Components Names
 
-Clients.Services.API
-Clients.Services.AuthAPI
-Clients.Services.Business
-Clients.Data
-
+Clients.Services.API  
+Clients.Services.AuthAPI  
+Clients.Services.Business  
+Clients.Data  
 
 ## To create the mongodb container
 
+Execute:
+
 ```bash
-execute docker-compose up 
+docker-compose up 
 ```
