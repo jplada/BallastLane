@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  mongodb:
+    container_name: mongodb-sample
+    image: mongo:latest
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=mongo-user
+      - MONGO_INITDB_ROOT_PASSWORD=mongo-pwd
+    restart: always
+    ports:
+      - "127.0.0.1:27018:27017"
+    volumes:
+      - mongodb-data:/data/db
+volumes:
+  mongodb-data:
