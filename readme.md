@@ -5,9 +5,9 @@ To give it a meaningful named entity, data is "Clients".
 
 ## The application consist of
 
-2 WebAPI projects for CRUD and Authorization
-A Business layer Class Library
-A Data Access Class library
+2 WebAPI projects for CRUD and Authorization.  
+A Business layer Class Library.  
+A Data Access Class library.
 
 Data is stored in MongoDB for simplicity
 
